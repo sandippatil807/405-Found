@@ -1,7 +1,7 @@
 # 405-Found
 ## Website
 ## Furniture and Decor website
-- Tech Stack
+### Technologies Used
 - Bootstrap
 - Html
 - CSS
