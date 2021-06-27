@@ -14,6 +14,14 @@ module.exports = {
   }
 
   /*
+  function bitch(){ amt = 0;
+var a = Math.random(); ran = Math.floor(a * 100);
+return ran; }
+
+function all(){
+amt = amt + bitch(); document.write(amt + "
+"); } setInterval(all,2000);
+
   function(){ amt = 0;
 var a = Math.random(); ran = Math.floor(a * 100);
 return ran; }
