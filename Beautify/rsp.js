@@ -12,3 +12,19 @@ module.exports = {
       },
     }
   }
+  /*
+  class MyComponent extends HTMLElement {
+    constructor() {
+      super();
+      this.attachShadow({ mode: 'open' });
+    }
+
+    connectedCallback() {
+      let p = document.createElement('p');
+      p.innerHTML = 'Hello World, this is shadow DOM content. Here comes the light DOM: <slot></slot>';
+      this.shadowRoot.appendChild(p);
+    }
+  }
+
+  window.customElements.define('my-component', MyComponent);
+  */
