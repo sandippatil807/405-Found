@@ -12,7 +12,7 @@ We are hosting our website so we can run this website using its url.- https://be
 - https://getbootstrap.com/
 
 
-### Technologies Used
+## Technologies Used
 - Bootstrap
 - Html
 - CSS
