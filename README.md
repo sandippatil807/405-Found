@@ -1,8 +1,6 @@
 # 405-Found
 ## Front end developement hackathon
 ## Theme- Furniture and Decor 
-<code><a href="" target="_blank"><img height="5000" src="https://user-images.githubusercontent.com/50192249/123550647-28830300-d78c-11eb-8aee-7356ee0d5731.jpeg"></a></code>
-
 
 
 ## How to run website locally-
