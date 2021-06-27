@@ -1,5 +1,5 @@
 # 405-Found
-## Front end developement hackathon
+## Front-end web developement hackathon
 ## Theme- Furniture and Decor 
 
 ## How to run website locally-
