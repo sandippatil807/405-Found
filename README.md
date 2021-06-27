@@ -18,11 +18,11 @@ Tailwind css
 ## How our website justifies the theme we have selected
 This website is a product-catalouge website. It provides the different product description and images according to categories available. 
 
-## Problems faced and they were resolved-
+## Problems we faced and how we resolved them-
 
 
 
-## What new tech
+## What are the new things we learned while making this website-
 
 
 
