@@ -8,26 +8,27 @@
     <link rel="stylesheet" href="css/kitchen.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="rsp.js"></script>
   </head>
   <body>
-    <header>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">Beautify</label>
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="decor.html">Decor</a></li>
-        <li><a href="kitchen.html">Kitchen</a></li>
-        <li><a href="bedroom.html">Bedroom</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-      </header>
-    <section class="text-gray-600 body-font">
+    <header style="position: absolute; z-index: 2; width: 100%">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Beautify</label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="decor.html">Decor</a></li>
+          <li><a class="active" href="kitchen.html">Kitchen</a></li>
+          <li><a href="bedroom.html">Bedroom</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="text-gray-600 body-font" id="content">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Kitchen furniture</h1>
@@ -49,8 +50,8 @@
               <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="assets/16.jpeg">
               <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1"></h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">$305</h1>
+                <p class="leading-relaxed">White Kitchen Cart with Natural Wood</p>
               </div>
             </div>
           </div>
@@ -98,7 +99,8 @@
       </div>
     </section>
     
-
-    <footer class="footer">&copy; 2021 Beautify By Sandip Patil</footer>
+    <div>
+      <footer class="footer">&copy; 2021 Beautify By Sandip Patil</footer>
+    </div>
   </body>
 </html>

@@ -11,22 +11,25 @@
     <script src="rsp.js"></script>
   </head>
   <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">Beautify</label>
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="decor.html">Decor</a></li>
-        <li><a href="kitchen.html">Kitchen</a></li>
-        <li><a href="bedroom.html">Bedroom</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <section class="text-gray-600 body-font">
+    <header style="position: absolute; z-index: 2; width: 100%">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Beautify</label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="decor.html">Decor</a></li>
+          <li><a href="kitchen.html">Kitchen</a></li>
+          <li><a href="bedroom.html">Bedroom</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section class="text-gray-600 body-font" id="content">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Decorative Items </h1>
