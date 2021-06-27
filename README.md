@@ -44,7 +44,7 @@ While making this website we ran into few problems.
 3. We also learned how to host a website.
 
 
-<code><a href="" target="_blank"><img height="50" src="https://user-images.githubusercontent.com/50192249/123551142-2a4dc600-d78e-11eb-8a11-58729c56432f.png"></a></code>
+<code><a href="" target="_blank"><img height="600" src="https://user-images.githubusercontent.com/50192249/123551142-2a4dc600-d78e-11eb-8a11-58729c56432f.png"></a></code>
 
 
 
