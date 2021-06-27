@@ -7,10 +7,11 @@ We are hosting our website so we can run this website using its url.-
 
 ## References used-
 for css https://www.w3schools.com/w3css/defaulT.asp 
-for html https://www.w3schools.com/html/
+,for html https://www.w3schools.com/html/
 
 
 ## CSS frameworks used-
+Tailwind css
 
 
 
